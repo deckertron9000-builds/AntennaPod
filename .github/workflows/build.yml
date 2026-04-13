@@ -16,4 +16,6 @@ jobs:
     with:
       tag: ${{ inputs.tag }}
       upstream_repo: ${{ inputs.upstream_repo }}
+      gradle_task: assembleFreeRelease
+      apk_path: app/build/outputs/apk/free/release/app-free-release.apk
     secrets: inherit
